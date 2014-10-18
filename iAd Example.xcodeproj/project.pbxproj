@@ -14,6 +14,8 @@
 		D1F7A8A619F2D7E7001D1CA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F7A8A519F2D7E7001D1CA3 /* Images.xcassets */; };
 		D1F7A8A919F2D7E7001D1CA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F7A8A719F2D7E7001D1CA3 /* LaunchScreen.xib */; };
 		D1F7A8B519F2D7E7001D1CA3 /* iAd_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7A8B419F2D7E7001D1CA3 /* iAd_ExampleTests.m */; };
+		D1F7A8C019F2D9EA001D1CA3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F7A8BE19F2D9EA001D1CA3 /* AdSupport.framework */; };
+		D1F7A8C119F2D9EA001D1CA3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F7A8BF19F2D9EA001D1CA3 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		D1F7A8AE19F2D7E7001D1CA3 /* iAd ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iAd ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F7A8B319F2D7E7001D1CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F7A8B419F2D7E7001D1CA3 /* iAd_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAd_ExampleTests.m; sourceTree = "<group>"; };
+		D1F7A8BE19F2D9EA001D1CA3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D1F7A8BF19F2D9EA001D1CA3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F7A8C019F2D9EA001D1CA3 /* AdSupport.framework in Frameworks */,
+				D1F7A8C119F2D9EA001D1CA3 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +102,8 @@
 		D1F7A89819F2D7E7001D1CA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1F7A8BE19F2D9EA001D1CA3 /* AdSupport.framework */,
+				D1F7A8BF19F2D9EA001D1CA3 /* iAd.framework */,
 				D1F7A89919F2D7E7001D1CA3 /* Info.plist */,
 				D1F7A89A19F2D7E7001D1CA3 /* main.m */,
 			);
